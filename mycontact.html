@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contact</title>
+  </head>
+  <body>
+    <h1>My Contact Address</h1>
+    <p>Jl. Rahmat Hakim 20, Jakarta, JKTM</p>
+    <p>021-908977878</p>
+    <p>emailme@gmail.com</p>
+    <hr />
+    <form action="mailto:kelique76@gmail.com" method="POST" enctype="text/plain">
+      <div class="form-example">
+        <label for="name">Masukkan Nama: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <br />
+      <div class="form-example">
+        <label for="email">Masukkan email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <label for="">Pesan Anda</label><br />
+      <textarea name="inputan" id="isi" cols="30" rows="10"></textarea>
+      <br />
+      <button class="favorite styled" type="submit">Langganan</button>
+      <br />
+      <hr />
+      <input type="file" /><br />
+      <input type="date" /><br />
+      <input type="radio" /><br />
+      <input type="range" /><br />
+      <input type="color" /><br />
+      <label for="">Cek jika mau langganan Video</label
+      ><input type="checkbox" />
+      <div class="form-example">
+        <input type="submit" value="Subscribe!" />
+      </div>
+    </form>
+  </body>
+</html>
