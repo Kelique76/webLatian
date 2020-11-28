@@ -1,0 +1,15 @@
+
+  body {
+    background-color: #adce74;
+  }
+
+  img {
+    border-radius: 40%;
+  }
+
+  hr {
+    background-color: grey;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 15%;
+  }
