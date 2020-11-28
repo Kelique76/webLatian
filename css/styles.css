@@ -4,11 +4,11 @@
   }
 
   img {
-    border-radius: 40%;
+    border-radius: 60%;
   }
 
   hr {
-    background-color: grey;
+    background-color: blue;
     border-top-style: dotted;
     border-width: 6px;
     width: 15%;
