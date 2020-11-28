@@ -12,6 +12,7 @@
     border-top-style: dotted;
     border-width: 6px;
     width: 15%;
+    border-style: none;
   }
   h1 {
       color: #583d72;
